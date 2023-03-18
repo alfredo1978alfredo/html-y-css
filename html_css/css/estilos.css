@@ -1,0 +1,90 @@
+/* Los comentarios en css es control+k+c y despues soltar k y c */
+/* SINTAXIS EN CSS
+    Selector "a quien" {   }; Propiedad: valor; siempre de debe colocar ";" 
+    Los selectores en general*/
+/* Los siguientes son selectores en general */
+h1 {
+    /* A todos h1 le damos propiedad color */
+    color: blue;
+    /* text-aling es alineacionde texto, las mas usasdas con center, left y right */
+    text-align: center;
+    background-color: black;
+    font-size: 100px;
+    letter-spacing: 15px;
+    word-spacing: 50px;
+
+    /* Para cargar tipo de fuentes de hace mediante Google Fonts */
+}
+
+h2 {
+    /* Para obtener colores especificos vamos a la pagina https://coolors.co/,  despues damos # + el copiamos el codigo del color */
+    color: #7c3912;
+    /* El background-color  agrega una caja de color al h2*/
+    background-color: rgb(101, 136, 188);
+    /* rgb  es cuanto tiene de rojo + verde + azul */
+    text-align: right;
+}
+
+/* El target es el grupo de gente a la cual se le va llegar con la pagina, es decir publico objetivo */
+
+/* Los siguientes son selectores por grupo de etiquetas*/
+
+footer {
+    background-color: yellow;
+    text-align: center;
+}
+
+section {
+    background-color: blue;
+    text-align: center;
+}
+
+aside {
+    background-color: pink;
+    text-align: center;
+}
+
+head {
+    background-color: black;
+    text-align: center;
+}
+
+nav {
+    background-color: #AEE5D8;
+    color: black;
+    text-align: center;
+}
+
+main {
+    background-color: blue;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+/* *{ }*,este es el selector universal */
+
+
+/* al escribir section p{}, le estamos diciendo que cambira a rojo solo las section  
+    section p{
+        color: red
+    }*/
+
+/* selector por Id */
+
+body {
+    font-family: 'Crimson Text', serif;
+}
+p{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: antiquewhite;
+    text-transform: uppercase;
+    
+}
+a{
+    text-decoration: none;
+}
